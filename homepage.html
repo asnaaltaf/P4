@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipes by Asna</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Manrope&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-color: #c1d5c0;
+			font-family: 'Manrope', sans-serif;
+			font-size: 14px;
+		}
+		header {
+			background-color: #c1d5c0;
+			color: #fff;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 20px;
+		}
+        
+        header h1 span{
+            font-weight: 100;
+			font-style: italic;
+			font-family: 'Pacifico', cursive;
+            color: white;
+        }
+        
+		/* navigation styles */
+      nav {
+        background-color: white;
+        padding: 10px;
+        margin: 0;
+        text-align: center;
+      }
+
+      nav ul {
+        display: flex;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center; /* center items horizontally */
+      }
+
+      nav ul li {
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        flex: 1; /* make the items stretch and take up equal space */
+        text-align: center; /* center the text horizontally */
+      }
+
+      nav ul li:last-child {
+        margin-right: 0;
+      }
+
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+      }
+		img {
+            background-image: url(/images/banner.jpg) ;
+			background-size: cover;
+			background-position: center;
+			height: 250px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			color: #fff;
+			text-align: center;
+		}
+        h1 {
+        font-family: 'Manrope', sans-serif;
+        font-size: 30px;
+        }
+    
+		.banner h2 {
+			font-size: 29px;
+			font-weight: normal;
+			margin: 20px;
+			padding: 20px;
+            color: white;
+		}
+		.banner h2 span {
+			font-weight: 100;
+			font-style: italic;
+			font-family: 'Pacifico', cursive;
+            color: white;
+		}
+       
+		.description {
+			padding: 20px;
+			text-align: justify;
+		}
+        .footer {
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			width: 100%;
+			background-color: white;
+			padding: 10px 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			box-sizing: border-box;
+			text-align: center;
+			font-size: 14px;
+			color: gray;
+		}
+		.footer a {
+			color: gray;
+			text-decoration: none;
+			padding: 0 10px;
+			box-sizing: border-box;
+		}
+	</style>
+<body>
+	<header>
+		<h1>Asna's Recipes <span>from Home</span></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="homepage.html">Home</a></li>
+			<li><a href="pages/recipes.html">Recipes</a></li>
+			<li><a href="pages/quickfix.html">Quick Fixes</a></li>
+			<li><a href="pages/special.html">Special Occasions</a></li>
+			<li><a href="pages/aboutus.html">About Us</a></li>
+			<li><a href="pages/contact.html">Contact Us</a></li>
+		</ul>
+	</nav>
+	<div class="banner">
+        <h1><a href="images/banner.jpg"></a></h1>
+         <img src="images/banner.jpg" alt="Food banner" height="40">
+		<h2>My goal is to provide easy and fulfilling recipes for beginners in the kitchen. Cooking and baking is a personal hobby that expanded into a passion of educating others on the basics of food preparation. Oftentimes, cooking seems intimidating and complex for those with minimal experience. However, with appropriate, detailed instructions, <span>a delicious dish can be made in minutes.</span></h2>
+        
+	</div>
+    <footer class="footer">
+		<a href="#">Privacy</a>
+		<a href="#">Terms &amp; Conditions</a>
+		&copy; Asna Noreen Altaf, 2023
+	</footer>
+</body>
+</html>
